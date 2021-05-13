@@ -1,5 +1,14 @@
 .features {
-    background-color: $color-grey-light-2;
     grid-column: center-start / center-end;
-    // grid-column: col-start 1 / col-end 8;
+    margin: 15rem 0;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6rem;
+    
+    &__feature {
+        // SVG
+        // h4
+        // p
+    }
 }
